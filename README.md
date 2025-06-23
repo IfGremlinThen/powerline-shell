@@ -6,7 +6,7 @@ _"A beautiful and useful prompt for your shell"_ made portable.
 
 ## Changes
 I forked this project because installing it via `python-pip` was a huge pain in the ass.\
-It did not survive OS migrations, and downloading it from repos would make it more difficult to maintain over time.
+It did not survive OS migrations and downloading it from repos would make it more difficult to maintain over time.
 
 Now it exists and runs entirely within your `/home` folder.
 
