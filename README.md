@@ -15,8 +15,10 @@ Requires `python3`.\
 Includes `argparse.py` (<a href="https://github.com/IfGremlinThen/powerline-shell/blob/master/LICENSE.PSF">LICENSE</a>).
 
 ## Installation
-Just drop the powerline-shell folder into ./config and add the following to your `.bashrc` or `.bash_aliases`:
-
+1.) Extract the contents of the archive,\
+2.) rename the resulting folder to `powerline-shell`,\
+3.) drag-and-drop `powerline-shell` into your ~/.config folder,\
+4.) add the following lines to the bottom of your `.bashrc` or `.bash_aliases` files:
 ```
 function _update_ps1() {
     PS1=$(PYTHONPATH=$HOME/.config/powerline-shell\
@@ -25,5 +27,7 @@ function _update_ps1() {
 if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"; fi
 ```
-### Uninstallation
-To uninstall, just reverse the above steps.
+To uninstall, just reverse steps 3 & 4.
+
+## Customization
+The `powerline-shell` folder includes a `config.json` for you to edit.  You can consult the <a href="https://github.com/IfGremlinThen/powerline-shell/blob/master/OLDREADME.md">OLDREADME</a> for more info.
