@@ -18,7 +18,7 @@ Includes `argparse.py` (<a href="https://github.com/IfGremlinThen/powerline-shel
 1.) Extract the contents of the archive,\
 2.) rename the resulting folder to `powerline-shell`,\
 3.) drag-and-drop `powerline-shell` into your ~/.config folder,\
-4.) add the following lines to the bottom of your `.bashrc` or `.bash_aliases` files:
+4.) add the following lines to the bottom of your `~/.bashrc` or `~/.bash_aliases` files:
 ```
 function _update_ps1() {
     PS1=$(PYTHONPATH=$HOME/.config/powerline-shell\
